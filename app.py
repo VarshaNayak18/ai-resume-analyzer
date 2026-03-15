@@ -16,11 +16,11 @@ if uploaded_file is not None:
     st.subheader("Extracted Resume Text")
     st.write(resume_text)
 
-    skills = extract_skills(resume_text)
+    resume_skills = extract_skills(resume_text)
 
-    st.subheader("Detected Skills")
+    st.subheader("Detected Resume Skills")
 
-    for skill in skills:
+    for skill in resume_skills:
         st.write("✔", skill)
 
     if job_description:
@@ -30,3 +30,15 @@ if uploaded_file is not None:
         st.subheader("Resume Match Score")
 
         st.write(f"{score}% match with job description")
+
+        job_skills = extract_skills(job_description)
+
+        missing_skills = [skill for skill in job_skills if skill not in resume_skills]
+
+        st.subheader("Missing Skills")
+
+        if missing_skills:
+            for skill in missing_skills:
+                st.write("❌", skill)
+        else:
+            st.write("No missing skills detected!")
