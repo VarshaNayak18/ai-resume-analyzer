@@ -1,6 +1,6 @@
 # AI Resume Analyzer
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-resume-analyzer.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-resume-analyzer-5zzkkd6j2gqp9whs49xaaz.streamlit.app/)
 
 An AI-powered web application that analyzes resumes and compares them with job descriptions to evaluate candidate suitability. The system extracts skills from resumes, identifies required skills in job descriptions, and calculates a match score using Natural Language Processing techniques.
 
@@ -20,7 +20,7 @@ An AI-powered web application that analyzes resumes and compares them with job d
 
 Try the application online:
 
-https://ai-resume-analyzer.streamlit.app
+https://ai-resume-analyzer-5zzkkd6j2gqp9whs49xaaz.streamlit.app/
 
 ## Tech Stack
 
