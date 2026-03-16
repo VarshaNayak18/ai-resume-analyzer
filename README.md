@@ -4,23 +4,23 @@
 
 An AI-powered web application that analyzes resumes and compares them with job descriptions to evaluate candidate suitability. The system extracts skills from resumes, identifies required skills in job descriptions, and calculates a match score using Natural Language Processing techniques.
 
-### Application Interface
+## Application Interface
 
 ![App Interface](images/app_interface.png)
 
-### Uploading Resume.pdf and Extracting Text from Resume 
+## Extracted text from Resume 
 
 ![Extracted Text](images/extracted_resume_text.png)
 
-### Resume Analysis
+## Resume Analysis
 
 ![Resume Analysis](images/resume_analysis.png)
 
-### Resume Insights
+## Resume Insights
 
 ![Missing Skills](images/resume_insights.png)
 
-### Score Evaluation
+## Score Evaluation
 
 ![Score Evaluation](images/score.png)
 
