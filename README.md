@@ -4,6 +4,26 @@
 
 An AI-powered web application that analyzes resumes and compares them with job descriptions to evaluate candidate suitability. The system extracts skills from resumes, identifies required skills in job descriptions, and calculates a match score using Natural Language Processing techniques.
 
+### Application Interface
+
+![App Interface](images/app_interface.png)
+
+### Uploading Resume.pdf and Extracting Text from Resume 
+
+![Extracted Text](images/extracted_resume_text.png)
+
+### Resume Analysis
+
+![Resume Analysis](images/resume_analysis.png)
+
+### Resume Insights
+
+![Missing Skills](images/resume_insights.png)
+
+### Score Evaluation
+
+![Score Evaluation](images/score.png)
+
 ## Features
 
 * Extracts text from PDF resumes
@@ -14,7 +34,6 @@ An AI-powered web application that analyzes resumes and compares them with job d
 * Displays resume insights and score breakdown
 * Provides AI-based feedback for resume improvement
 * Interactive web interface built with Streamlit
-
 
 ## Live Demo
 
@@ -47,23 +66,28 @@ https://ai-resume-analyzer-5zzkkd6j2gqp9whs49xaaz.streamlit.app/
 ```
 ai-resume-analyzer
 │
-├── app.py
-├── requirements.txt
-├── .gitignore
-├── README.md
-│
 ├── data
 │   └── skills_list.csv
+│
+├── images
+│   ├── app_interface.png  
+│   ├── extracted_resume_text.png
+│   ├── resume_analysis.png
+│   ├── resume_insights.png
+│   └── score.png
 │
 ├── sample_resumes
 │   └── resume1.pdf
 │
 ├── utils
 │   ├── resume_parser.py
-│   ├── skill_extractor.py
-│   └── similarity.py
+│   ├── similarity.pyskill_extractor.py
+│   └── skill_extractor.py
 │
-└── images
+├── .gitignore
+├── README.md
+├── app.py
+└── requirements.txt
 ```
 
 ## How It Works
